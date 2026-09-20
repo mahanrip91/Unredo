@@ -1,0 +1,16 @@
+workflows:
+  unredo-debug:
+    name: Unre Do - Debug APK
+    max_build_duration: 30
+    instance_type: mac_mini_m2
+    environment:
+      groups: []
+      vars:
+        JAVA_VERSION: 17
+      java: 17
+    scripts:
+      - name: Build debug APK
+        script: |
+          gradle assembleDebug --stacktrace --no-daemon
+    artifacts:
+      - app/build/outputs/apk/debug/app-debug.apk

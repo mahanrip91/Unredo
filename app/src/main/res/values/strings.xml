@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">UnreDo</string>
+    <string name="onboarding_title">UnreDo</string>
+    <string name="onboarding_description">UnreDo shows a small Undo / Redo toolbar right above your keyboard, no matter which keyboard app you use. It works entirely through Android\'s Accessibility service — no root, no ADB, no Shizuku required.</string>
+    <string name="enable_accessibility_button">Enable Accessibility</string>
+    <string name="status_enabled">Accessibility service is enabled. The toolbar will appear above your keyboard.</string>
+    <string name="status_disabled">Accessibility service is not enabled yet.</string>
+    <string name="accessibility_service_description">Detects the active on-screen keyboard and shows a small floating Undo/Redo toolbar above it. Does not read, store, or transmit personal data.</string>
+    <string name="undo_label">↶ Undo</string>
+    <string name="redo_label">↷ Redo</string>
+</resources>
